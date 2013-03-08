@@ -4,7 +4,7 @@ Date: Tue Feb 25 2013 10:16:51 GMT-0600 (CST)
 
 Node: v0.1.102
 
-Now  Why use version control?  
+Why use version control?  
 
 Imagine that you want to get to the top of a fifty-foot cliff.  You could jump up and start climbing.  What happens if you make a mistake?  You fall off the cliff.  This is not a problem when you are three feet off the ground.  This is a big problem when you are thirty feet off the ground.  The problem is, every inch you climb closer to the top, of the cliff, the more dangerous it becomes to you if you make a mistake.  
 
