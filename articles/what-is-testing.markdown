@@ -1,11 +1,14 @@
-Title: What Is Testing?
+Title: What Is Unit Testing and Test-Driven-Design?
 Author: Tara Roys
 Date: Sat March 9 2013 10:16:51 GMT-0600 (CST)
 
 Node: v0.1.102
 
+Everyone seems to agree that Unit Testing and Test-Driven-Design are good things, but nobody seems interested in explaining what they are in terms that I, a testing newbie, can understand.  After fighting my way through a few tutorials, I came up with the following analogy: A program is like a bunch of leaky pipes, a programmer is like a plumber, and tests are like sensors in the pipes that help you find the leak.
 
-Imagine you are a plumber, and you get called to someone's house.  They are complaining because when they turned on the tap, no water came out.  Obviously, something is wrong.  But what?  
+#The Story of Plumber and the Leaky Pipes
+
+Imagine you are a plumber, and you get called to Mrs. Smith's house.  Mrs. Smith is complaining because when she turned on the tap, no water came out.  Obviously, something is wrong.  But what?  
 
 You go back to the water company, and check the pipe that leads to the house.  Water is flowing out through it.  Somewhere, between the water company and the house, the water is disappearing.  You think, there must be a leak somewhere.  But where?   
 
@@ -20,6 +23,8 @@ The representative looks at you, and says, "Haven't you heard about the testing 
 They run the test, and the plumber looks at the map.  The pipe from the water company to the house shows mostly green, but under the sidewalk outside the house, it turns red. 
 
 "You'll probably find your leak there."   The company representative said.  The plumber went out, checked, and sure enough, found the sidewalk sagging and a huge muddy puddle from where the broken pipe was leaking water.  The plumber is estatic.  Instead of spending days finding the leak, it took him five minutes.  
+
+#Tests are Like Sensors
 
 Like our plumber using sensors to find the broken place in the pipe, tests allow us to quickly find the broken places in our software.  Software functions are a lot like sections of pipe.  Data goes in one end and comes out another end like water goes in and comes out of a pipe. Programmers hook hundreds of functions together the same way that a plumber hooks together miles of pipe.  So what happens if you put data in a program, but nothing comes out of it?  Most programmers feel exactly the same way as our plumber dreading the idea of inspecting miles of pipe:  They know they have to search all of the functions between the data input and the data output, looking for the broken connection, and they know it is going to take FOREVER.  But what happens 
 

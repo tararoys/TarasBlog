@@ -7,7 +7,7 @@
         .date{title: article.date}&= formatDate(article.date, "%Y.%m.%d")
       %h3
         %a{href: "/" + article.name}&= article.title
-      = markdownEncode(article.markdown)
+      = intro(article.markdown)
       %a.more{href: "/" + article.name} Read more...
 
 #sidebar

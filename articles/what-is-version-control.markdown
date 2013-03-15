@@ -1,15 +1,21 @@
-Title: What is Version Control?  
+Title: Version Control is your Safety Line
 Author: Tara Roys
 Date: Tue Feb 25 2013 10:16:51 GMT-0600 (CST)
-
 Node: v0.1.102
 
+If building software is like climbing a cliff, version control is the rope that keeps you from falling to death when you slip.  I wish somebody had told me that anlaogy when I first started to program. As a newbie, I had a hazy idea that version control was good, and that if you didn't use version control, good programmers would look at you like you were the Second Coming of Hitler.  However, I had no good, concrete, visual way of explaining to myself what version control was.  Without that, I couldn't convince myself to face the terrifying learning curve of something like Git, and my programming ability suffered for years.  
 
-Imagine that you want to get to the top of a fifty-foot cliff, so you start climbing.  What happens if you make a mistake?  You fall off the cliff.  This is not a problem when you are three feet off the ground.  This is a big problem when you are thirty feet off the ground.  Every inch you climb makes it more dangerous to make a mistake.  
+So let's take this cliff and rope analogy and use it to get a better idea of what versio control is.  
+
+#A Fabel of Version Control
+
+Imagine that you want to get to the top of a fifty-foot cliff, so you start climbing.  What happens if you make a mistake?  You fall off the cliff.  This is not a problem when you are three feet off the ground.  This is a big problem when you are thirty feet off the ground.  Every inch you climb makes it more dangerous to make a mistake.
+  
 
 This has a couple of consequences.  Most people, looking at the cliff, will decide they don't want to die, and choose not to climb it.  Some people will only climb three feet up, so that if they fall it won't be too far.  Only very experienced climbers will climb all the way to the top.  The rest are too afraid that they will break something if they try it.  
 
 Then someone invents the climbing rope. The climbing rope works like this:  a climber ties a rope around their waist, and climbs a little bit up the cliff. After they are about ten feet off the ground, the climber puts a bolt into the cliff face and ties the rope to the bolt.  Now, if they fall, the rope will catch the climber and leave them swinging from the bolt instead of falling all the way to the ground.  The climber then climbs a little bit further up the cliff, puts in another bolt, and ties the rope off again.  By using a rope and bolts, a good climber will never have to fall more than ten feet- which is much, much better than falling all the way to the ground. 
+
 
 What happens then?  People who used to be afraid of falling will start climbing the cliff, secure in the knowledge that if they do fall, they won't fall that far.  Many, many, many more peopel climb the cliff, and most of them make it to the top. Rock climbing becomes a popular sport instead of being restricted to a few expert daredevils.    
 
