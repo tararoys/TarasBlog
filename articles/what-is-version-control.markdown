@@ -7,7 +7,7 @@ If building software is like climbing a cliff, version control is the rope that 
 
 So let's take this cliff and rope analogy and use it to get a better idea of what versio control is.  
 
-#A Fabel of Version Control
+##A Fabel of Version Control
 
 Imagine that you want to get to the top of a fifty-foot cliff, so you start climbing.  What happens if you make a mistake?  You fall off the cliff.  This is not a problem when you are three feet off the ground.  This is a big problem when you are thirty feet off the ground.  Every inch you climb makes it more dangerous to make a mistake.
   
