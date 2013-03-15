@@ -2,8 +2,8 @@
 %html(lang="en")
   %head
     %meta(charset="utf-8")
-    %title #{(title ? title + " - " : "")}How To Node - NodeJS
-    %meta(name="description" content="Learn the zen of coding in NodeJS.")
+    %title #{(title ? title + " - " : "")}Tara's Blog
+    %meta(name="description" content="Life, the Universe, and Javascript")
     %meta(name="viewport" content="width=device-width")
     %link(href="/style.css" rel="stylesheet")
     %link(href="/print.css" rel="stylesheet" media="print")
@@ -13,14 +13,14 @@
     #container
       #header
         %a{href: "/"}
-          %img.logo{src: "/logo.png", alt: "How to Node"}
+          %h.title Tara's Blog
           .tagline
-            The zen of coding in node.js
+            Life, the Universe, and Javascript	
       = content
       
       #footer
         %p &copy; 2011 Tim Caswell under the MIT license.
-        %p Content and articles are copyrighted to the individual authors. Design by&nbsp;
+        %p Content and articles are copyrighted by Tara Roys. Design by&nbsp;
           %a{href: "http://bengourley.co.uk"} Ben Gourley
           . All code snippets used in the examples are in the public domain.
         %p Wheat running on node #{process.version}

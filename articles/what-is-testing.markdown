@@ -26,15 +26,16 @@ They run the test, and the plumber looks at the map.  The pipe from the water co
 
 #Tests are Like Sensors
 
-Like our plumber using sensors to find the broken place in the pipe, tests allow us to quickly find the broken places in our software.  Software functions are a lot like sections of pipe.  Data goes in one end and comes out another end like water goes in and comes out of a pipe. Programmers hook hundreds of functions together the same way that a plumber hooks together miles of pipe.  So what happens if you put data in a program, but nothing comes out of it?  Most programmers feel exactly the same way as our plumber dreading the idea of inspecting miles of pipe:  They know they have to search all of the functions between the data input and the data output, looking for the broken connection, and they know it is going to take FOREVER.  But what happens 
+Like our plumber using sensors to find the broken place in the pipe, tests allow us to quickly find the broken places in our software.  Software functions are a lot like sections of pipe.  Data goes in one end and comes out another end like water goes in and comes out of a pipe. Programmers hook hundreds of functions together the same way that a plumber hooks together miles of pipe.  So what happens if you put data in a program, but nothing comes out of it?  Most programmers feel exactly the same way as our plumber dreading the idea of inspecting miles of pipe:  They know they have to search all of the functions between the data input and the data output, looking for the broken connection, and they know it is going to take FOREVER.   
 
  One simple way to test a function is to check if there is data coming out of it, like a sensor can check if there is water coming out of a pipe.  Many times, as programmers we hook hundrends of functions together  like a water system hooks together miles of pipes.  It also has the same problems as our plumber:  if we spring a data leak, where in our miles of functions is the break?   If we hook sensors to every function, sensors that test if the data is flowing, we can find out where the break is as easily as the water company rep found the leaky pipe. 
   
+#When Should You Write Tests?	
 
 Now.  Here's another question.  Suppose you worked for the water company, and your job was of add new pipes to the system.  The water sensors are actually a small section of pipe screwed on to the end of a bigger pipe before it is connected to another pipe.  The pipes are usually buried underground.  Do you think it is easier to install all of the pipes first, bury everything and then install the sensors?  
-Or do you think it is easier to install the sensor and the pipe at the same time?  
+Or do you think it is easier to install the sensors and the pipe at the same time?  
 
-Since installing sensors would require digging up the pipes, unscrewing them from eachother, putting a sensor in between each pipe, reattatching them, and burying everything again, the answer is clear:  it is far, far better to install the sensors at the same time you install the pipes.  
+Since installing sensors after installing pipes would require digging up the pipes, unscrewing them from eachother, putting a sensor in between each pipe, reattatching them, and burying everything again, the answer is clear:  it is far, far better to install the sensors at the same time you install the pipes.  
 
 The same holds true for writing tests for pieces of code.  It is far easier to write a test to test a piece of code at the same time that you are writing that piece of code.  
 
