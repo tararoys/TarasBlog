@@ -1,10 +1,10 @@
-Title: Threaded Servers Vs. Evented Servers, or Bank Teller Vs. The Gossipy Neighbor
+Title: Threaded Servers Vs. Evented Servers, or the Bank Teller Vs. The Gossipy Neighbor
 Author: Tara Roys
 Date: Wed Mar 20 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
 
 
-I never really got the difference between a threaded server and an evented server until likened a thread to a bank teller and an event loop to a gossipy neighbor.  Read on for the intricate analogy!
+I never really got the difference between a threaded server and an evented server until I likened a thread to a bank teller and an event loop to a gossipy neighbor.  Read on for the intricate analogy!
 
 ##Threaded Servers
 
