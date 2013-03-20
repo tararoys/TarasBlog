@@ -2,7 +2,7 @@
   :each article in articles.slice(0,15)
     .article
       .author
-        %img{src:gravitar(article.author.email, 30)}
+        
         By #{article.author.name}
         .date{title: article.date}&= formatDate(article.date, "%Y.%m.%d")
       %h3
