@@ -1,0 +1,81 @@
+
+<world>
+<flam3_IFS name="New Blank Flame">
+	<camera>
+		<vec4 name="pos">0 0 0 1</vec4>
+		<vec2 name="rotate">0 0</vec2>
+		<real name="scale">354.44323</real>
+	</camera>
+	<imaging name="Imaging">
+		<int name="image_width">739</int>
+		<int name="image_height">680</int>
+		<int name="image_supersample">2</int>
+		<string name="antialiasing_mode">strong</string>
+		<real name="brightness">4</real>
+		<vec4 name="background_colour">0.1 0.1 0.1 1</vec4>
+		<real name="flam3_gamma">3.6</real>
+		<real name="flam3_vibrancy">1</real>
+		<bool name="flam3_use_highlight_power">false</bool>
+		<real name="flam3_highlight_power">0.003</real>
+		<real name="flam3_gamma_linear_threshold">0</real>
+	</imaging>
+	<colouring>
+		<curve name="hue">
+			<table name="knots">
+				<values>0 0.14285715 0.2857143 0.42857143 0.5714286 0.71428573 0.85714287 1</values>
+			</table>
+			<table name="values">
+				<values>0.5918913 0.7190439 0.8071572 0.81106025 0.65890545 0.594399 0.8666091 0.037801243</values>
+			</table>
+		</curve>
+		<curve name="saturation">
+			<table name="knots">
+				<values>0 0.14285715 0.2857143 0.42857143 0.5714286 0.71428573 0.85714287 1</values>
+			</table>
+			<table name="values">
+				<values>0.4825611 0.48530185 0.68892235 0.8892659 0.8779499 0.77066433 0.361463 0.88338655</values>
+			</table>
+		</curve>
+		<curve name="value">
+			<table name="knots">
+				<values>0 0.14285715 0.2857143 0.42857143 0.5714286 0.71428573 0.85714287 1</values>
+			</table>
+			<table name="values">
+				<values>0.64102125 0.24434546 1.1120775 0.45385367 0.52433705 0.6024935 0.5572967 0.8918465</values>
+			</table>
+		</curve>
+	</colouring>
+	<node name="iterators">
+		<iterator name="Iterator 0">
+			<flam3_transform name="flam3 transform">
+				<affine2 name="Pre affine">
+					<real name="x_axis_angle">0</real>
+					<real name="x_axis_length">1</real>
+					<real name="y_axis_angle">90</real>
+					<real name="y_axis_length">1</real>
+					<vec2 name="offset">0 0</vec2>
+				</affine2>
+				<node name="transforms">
+					<transform name="xform">
+						<string name="type_name">linear</string>
+						<params>
+							<real name="linear">1</real>
+						</params>
+					</transform>
+				</node>
+			</flam3_transform>
+			<flam3_shader name="Shader">
+				<real name="palette_index">0</real>
+				<real name="blend_speed">0.5</real>
+				<real name="opacity">1</real>
+			</flam3_shader>
+			<weights_selector name="weights">
+				<real name="base_weight">1</real>
+				<node name="per_iterator_weights">
+					<real name="iter 0 weight">1</real>
+				</node>
+			</weights_selector>
+		</iterator>
+	</node>
+</flam3_IFS>
+</world>

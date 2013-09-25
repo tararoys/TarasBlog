@@ -1,4 +1,4 @@
-Title: Intro To Fractals: Making An Angel's Wing
+Title: Intro To Fractals: Making An Angel's Wing in Chaotica
 Author: Tara Roys
 Date: Wed Sept 12 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
@@ -9,279 +9,335 @@ Making Angel Wings: An Introduction to Apophysis
 Introduction
 ============
 
-![](wing/images/wingtutorialcolored3.jpg)
+![](wing-Chaotica/wingtutorialcolored3.jpg)
 
 This tutorial assumes you have zero knowledge of fractals or of
-Apophysis.
+Chaotica.
 
-In order to use Apophysis, you must use Windows. (There are a few
-versions( specifically Apophysis-J) that can be used on all operating
-systems, but I have no experience with these.) The latest versions of
-Apophysis can be downloaded for free from [the Apophysis
-website.](http://www.apophysis.org) Apophysis is also extensively
-modified by several independent hackers. Links to their versions can be
-found in several places, but are usually posted to the Deviant Art
-fractal community at [Deviant Art Fractal
-Community.](http://apophysis.deviantart.com)
+You can use Chaotica with any operating system.  The latest version 
+of Chaotica can be downloaded from [the Chaotica Website.](http://chaoticafractals.com/)
 
-This chapter will teach you how to make the fractal wing shown above. By
-the end of it, you will know how to use the most important parts of the
-Apophysis user interface, and you'll have a pretty picture as well.
+This chapter will teach you how to make the fractal wing shown above.  By the end of 
+it, you will know how to use the most important parts of the Chaotica user interface, 
+and you will have a lovely picture to show off to your friends.  
+
+This tutorial will tell you how to do make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making.  If you want to know the principles of specific fractals, see ![](http://www.acm.uiuc.edu/~troys2/ApophysisUserManual/).  This tutorial is adapted from tutorial 1 of that book.  You can use the same principles explained in that book to use chaotica.  
+
 
 The Main Screen
 ===============
 
-This tutorial is a general introduction to Apophysis. It introduces all
+This tutorial is a general introduction to Chaotica. It introduces all
 of the important aspects of the program by teaching how to make an
 angels wing. So, without further ado, let me present "How to Make An
 Angel's Wing" by yours truly, [Tara
 Roys.](http://tararoys.deviantart.com)
 
-![](wing/images/apophysismain.jpg)
+![](wing-Chaotica/parameterbrowser.png)
+First, open up Chaotica. You will see nine pretty fractals shown in a window 
+called the Parameter Browser, like the ones above.  The ones you see will not be exactly like the ones shown here.  Don't worry about 
+it.  Double-click on one that you like, and close the parameter browser.    
 
-First, open up Apophysis. You will see three things of interest: the
-main screen, as shown above, which will hopefully be displaying a pretty
-fractal, the left-hand list of fractals,and a series of menus and
-buttons across the top. The main window displays a fractal. Ignore it
-for the moment. The left-hand list is a list of 100 randomly generated
-fractals. You can click on them and look in the main window to see if
-you see anything interesting. After that, turn your attention to the
-menus.
+![](wing-Chaotica/chaoticamain.png)
 
-Moving Your Fractal: The Transform Editor
+You will now see the main screen, as shown above.  There are lots of options on the main screen.
+At the moment, we only care about one option: AA Level.  
+
+![](wing-Chaotica/SSFactor_1.png)
+
+On the left-hand side of the screen, you will see an option called SS Factor in the Resolutions and Channels section. (It is highlighted in orange in the image above.) Set it to 1. This makes the program draw the fractal faster. 
+
+![](wing-Chaotica/mainmenu.png)
+
+Turn your attention to the main menu, shown above.    
+
+![](wing-Chaotica/openWorldEditor.png)
+
+In the main menu, click on Window and then World editor to open the world editor. 
+
+
+
+Moving Your Fractal: The World Editor
 =========================================
 
-![](wing/images/menus.jpg)
+![](wing-Chaotica/WorldEditor.png)
 
-Click on the Transform Editor button. ![](wing/images/editorbutton.jpg)A
-new window called the Transform Editor will open, as shown below.
+This is the World Editor.  This is where you can change the shape of your fractal. You will learn to love the World Editor, because this is where you will spend most of your time.
 
-![](wing/images/transformeditor.jpg)
 
-Moving around in the Transform Editor
+
+Moving around in the World Editor
 -------------------------------------
 
-When you open the transform editor, the first thing you'll see is
-probably a large black screen with some triangles and a grid on it..
+![](wing-Chaotica/blackgrid.png)
 
-The first thing you'll wand to learn is how to move around in this
+When you open the world editor, the first thing you'll see is
+probably a large black screen with a bunch of angles and a grid on it.
+
+The first thing you'll want to learn is how to move around in this
 window.
 
-Right-click and hold on the black grid. Your mouse will turn into a
-Translation symbol ![](wing/images/transformiconnomouse.png) . Still
-holding the right mouse button down, move your mouse around. You'll drag
-the grid around. This lets you reposition your editor window so that you
+Right-click and hold on the black grid.  Still holding the right mouse button down, move your mouse around. 
+You'll drag the grid around. This lets you reposition your editor window so that you
 can concentrate on whatever part you want.
 
-To zoom in and out of your editor window, scroll with the mouse wheel.
-Scrolling up will zoom in, whereas scrolling down will zoom out. If you
-don't have a mouse wheel, you can zoom by using the + and - keys across
-the top of your keyboard (not the ones on the number pad, but the ones
-that also double as underscore and equals.
+To zoom in and out of your editor window, hold down ALT and the right mouse button, then drag the mouse around. Dragging the mouse up will zoom in, whereas dragging the mouse down will zoom out.  
 
-Making a New Blank Flame
+Making a New Flame
 ------------------------
 
-In the upper left-hand corner of the transform editor, you will see the
-new blank flame button. ![](wing/images/newblankflame.jpg) Click on it.
+You'll notice that the picture above has a lot of colored angles pointing every which way. When click on one of the arrow and drag it around, you'll notice that you change how the fractal looks.
 
-![](wing/images/transformeditorblankflame.jpg)
+Right now, having so many angles pointing every which way is confusing.  We want to delete all but one set of angles and start over.  You can do it by hand, but I'm assuming you want to get on with actually making the wing and skip a lot of the boring setup.  So do the following.  Copy all of the code in the black box below.  
 
-You will see a single red triangle in your transform editor.
+	<flam3_IFS name="New Blank Flame">
+		<camera>
+			<vec4 name="pos">0 0 0 1</vec4>
+			<vec2 name="rotate">0 0</vec2>
+			<real name="scale">354.44323</real>
+		</camera>
+		<imaging name="Imaging">
+			<int name="image_width">739</int>
+			<int name="image_height">680</int>
+			<int name="image_supersample">2</int>
+			<string name="antialiasing_mode">strong</string>
+			<real name="brightness">4</real>
+			<vec4 name="background_colour">0.1 0.1 0.1 1</vec4>
+			<real name="flam3_gamma">3.6</real>
+			<real name="flam3_vibrancy">1</real>
+			<bool name="flam3_use_highlight_power">false</bool>
+			<real name="flam3_highlight_power">0.003</real>
+			<real name="flam3_gamma_linear_threshold">0</real>
+		</imaging>
+		<colouring>
+			<curve name="hue">
+				<table name="knots">
+					<values>0 0.14285715 0.2857143 0.42857143 0.5714286 0.71428573 0.85714287 1</values>
+				</table>
+				<table name="values">
+					<values>0.5918913 0.7190439 0.8071572 0.81106025 0.65890545 0.594399 0.8666091 0.037801243</values>
+				</table>
+			</curve>
+			<curve name="saturation">
+				<table name="knots">
+					<values>0 0.14285715 0.2857143 0.42857143 0.5714286 0.71428573 0.85714287 1</values>
+				</table>
+				<table name="values">
+					<values>0.4825611 0.48530185 0.68892235 0.8892659 0.8779499 0.77066433 0.361463 0.88338655</values>
+				</table>
+			</curve>
+			<curve name="value">
+				<table name="knots">
+					<values>0 0.14285715 0.2857143 0.42857143 0.5714286 0.71428573 0.85714287 1</values>
+				</table>
+				<table name="values">
+					<values>0.64102125 0.24434546 1.1120775 0.45385367 0.52433705 0.6024935 0.5572967 0.8918465</values>
+				</table>
+			</curve>
+		</colouring>
+		<node name="iterators">
+			<iterator name="Iterator 0">
+				<flam3_transform name="flam3 transform">
+					<affine2 name="Pre affine">
+						<real name="x_axis_angle">0</real>
+						<real name="x_axis_length">1</real>
+						<real name="y_axis_angle">90</real>
+						<real name="y_axis_length">1</real>
+						<vec2 name="offset">0 0</vec2>
+					</affine2>
+					<node name="transforms">
+						<transform name="xform">
+							<string name="type_name">linear</string>
+							<params>
+								<real name="linear">1</real>
+							</params>
+						</transform>
+					</node>
+				</flam3_transform>
+				<flam3_shader name="Shader">
+					<real name="palette_index">0</real>
+					<real name="blend_speed">0.5</real>
+					<real name="opacity">1</real>
+				</flam3_shader>
+				<weights_selector name="weights">
+					<real name="base_weight">1</real>
+					<node name="per_iterator_weights">
+						<real name="iter 0 weight">1</real>
+					</node>
+				</weights_selector>
+			</iterator>
+		</node>
+	</flam3_IFS>
 
-The first thing you should note is the large black grid with the
-triangle. This triangle is called a transform, because changing it
-transforms the fractal into strange and different shapes. I shall call
-it a transform from now on.
 
-Note: The words "transform" and "triangle" have different meanings in
-Apophysis. If you look on the right side of the transform editor, you'll
-notice that there is a tab that says 'triangle' and a tab that says
-'transform.' Both tabs have stuff in them that you can press with your
-mouse or type in numbers that will move the triangle around. Both do it
-in slightly different ways that, unless you know the reasons behind
-them, will drive you crazy. Heck, I know the reasons behind them, and
-they still drive me crazy. But I'm getting ahead of myself: the reasons
-will be explained in the next chapter.
+Go to Chaotica.  In the edit menu, hit 'Paste XML from Clipboard.'
 
-Moving Transforms With the Mouse
---------------------------------
+![](wing-Chaotica/PasteFlame.png)
 
-### Moving the Whole Transform
+You will see a square slowly take shape in the main window.  
 
-Hover your mouse over the red triangle until the move icon shows up.
-Click and hold down the left mouse button to drag the triangle. When you
-click, two white axis lines will appear, as seen below. Drag the
-transform. You will notice that two dull gray axis lines will follow the
-triangle, another pair of dull gray axis lines stay behind, as seen
-below. The lines that stay behind show where you were moving from, while
-the lines that follow the triangle tell where you are moving to.
+![](wing-Chaotica/NewBlankFlame.png)
 
-### The Reference Transform
+Now we can start building our wing!
 
-Let go of the transform. The next thing to notice is the gray triangle
-we just uncovered. That gray triangle is called the reference transform.
-You'll learn more about why the reference transform is important in
-later tutorials. For right now, you'll use it to help measure where to
-put your other transforms.
 
-![](wing/images/transformeditorreferencetransform.jpg)
 
-You can't move the gray reference transform. However, you can move the
-red triangle.
+### Moving a Pre-Affine Transform With The Mouse
 
-### Scaling the Transform
+If you go to the world editor, you will see the following:
 
-Let's learn a couple more ways to move the red triangle with the mouse.
-Notice that the red triangle has two solid red lines and a dotted red
-line. Hover your mouse over the dotted red line until the scale
-icon![](wing/images/mousescale.png) appears beside the mouse pointer.
-The dotted line will also be highlighted. This means that you can make
-the transform bigger or smaller. Click and hold on it with the left
-mouse button and drag to make the transform bigger or smaller.
+![](wing-Chaotica/BlankFlameIterator.png)
 
-![](wing/images/transformeditorscale.jpg)
+Click on the red thing that looks like a pair of arrows coming out from a point.  That thing is called a Pre-Affine Transform. 
 
-### Rotating the Transform
+ Note: A lot of people like to shorten it an call it a transform because 'Pre-Affine Transform' sounds long and scary.  However, for the rest of the tutorial I'm going to call it by it's full name: Pre-Affine Transform. Why? Because there are six different things in Chaotica labeled 'Transform,' and I don't want you to get confused about which one I'm talking about. Don't worry about the scary-sounding name for now.  
 
-Now hover your mouse over one of the solid red lines on the transform
-until the rotate icon ![](wing/images/mousewithrotate.png) appears. The
-line you are hovering over will also highlight. Click and hold with the
-left mouse button. A circle and two white axis lines will appear. The
-circle is centered around where the transform will rotate, as shown
-below.
+Click on it.  You should see two things.  First, the Pre-Affine Transform is highlighted on the grid, like so: 
 
-![](wing/images/transformeditorrotate.jpg)
+![](wing-Chaotica/Pre-AffineTransformHilighted.png)
 
-Drag the mouse to rotate the transform.
+Second, you will see the name pre-affine higlighted in orange in the iterators panel in the upper-right-hand corner of the world editor, like so:  
 
-![](wing/images/transformeditorrotate2.jpg)
+![](wing-Chaotica/Pre-AffineHilighted.png)
 
-### Moving the Transform with the O point
 
-The next thing to notice is that each point on the triangle is labeled.
-One is labeled O, one is labeled X, and one is labeled Y.
+Let's get this thing moving!
 
-Hover your mouse over the O point until the translate icon
-![](wing/images/mousewithtranslate.png) shows up. The 0 point will
-highlight white. ![](wing/images/Ohighlightwhite.jpg) Left-click and
-hold on the O point. You will notice two pairs of axis lines appear, as
-seen below.
+If you've ever worked with Photoshop or a similar image editor, you know that you can move an image in several different ways.  Take a look at the picture below.  The green shape is the original shape, and the yellow shape is moved in some way.  Each particular type of movement is has it's very own fancy technical term that sounds all scary and strange, but really, they're just names for the very ordinary sorts of movements you'd want to do to a picture.  
 
-These axis lines are slightly different than the lines you saw earlier
-when selecting the whole transform and moving it. First, one pair always
-stays on the X and Y axis, instead of staying behind where the transform
-used to be. The other pair follows the transform around as usual.
+![](wing-Chaotica/AffineTransform.png)
 
-So why is there a difference between moving with the O point and moving
-the whole triangle? O is shorthand for origin. If you notice, the
-reference transform has an O point as well, and one pair of axis lines
-always goes through it. The reference transform's O point is the origin
-of the grid you are drawing your fractal on, and the red transform's O
-point shows how far from that origin your transform has moved, because
-that distance is important in the making of the fractal. When you use
-the O point to move the transform, Apophysis assumes that you want to
-know the distance between the reference transform's O point the red
-transform's O point, and puts the axis lines in to help show you that
-distance, as seen below.
+Taken together, these five movements are called Affine Tranformations, which is where the 'Affine' part of 'Pre-Affine Transform' comes from.  Let's learn how to do these five movements to our pre-affine transform.  
 
-![](wing/images/transformeditorOwithaxisdistance.jpg)
+### Translation
 
-By contrast, when you move the whole transform, Apophysis assumes you
-want to know where the red transform was before you started moving it,
-and so leaves a pair of axis lines to show where the red transform's O
-point used to be before you started moving it, as seen below.
+Look at the Pre-Affine Transform.  You'll notice that they are made of two arrows. In math terms, an arrow is called an 'axis.'  I am going to use the term 'axis' instead of 'arrows' for the rest of the tutorial. 
 
-![](wing/images/transformeditorwithaxisdistance.jpg)
+Look at where the two axises meet.  There is a small circle that looks like this: 
 
-### Skewing the Transform With the X and Y Points
+![](wing-Chaotica/origin.png)
 
-Now let's take a look at the other two points on the triangle: the X
-point and the Y point.
+This circle is called the origin.  Click and drag it.  
 
-Let's start with the X point.
+Clicking and dragging on the origin allows you to translate the Pre-Affine Transform.  
 
-Hover your mouse over the X point until the translate icon
-![](wing/images/mousewithtranslate.png) shows up. The X point will
-highlight red. ![](wing/images/Xhighlightred.jpg) Left click and hold on
-the X point and start dragging it around. You'll notice ttwo pairs of
-axis lines appear, and you'll also notice that only the x point
-moves--the whole transform does not move. This allows you to skew the
-transform.
+Now is a good time to point out the white axises.  The white axises are the Reference Axises that tell you how far away from the center of the picture you have moved your Pre-Affine Transform.
 
-![](wing/images/Xmove.jpg)
+![](wing-Chaotica/Translation.png)
 
-Notice that one pair of axis lines goes through the O point on the
-transform, and other pair of axis lines goes through the X. This is
-because Apophysis thinks it is important for you to know the distance
-between the O point and the X point, because that distance is important
-when forming the fractal. Because of this Apophysis places the axis
-lines so that you can see the distance.
+In this picture, I have moved the Pre-Affine Transform down and to the left of the Reference Axises.  
 
-Moving the Y point acts exactly the same as moving the X point, with the
-sole exception that when you hover your mouse over the Y point it turns
-blue. ![](wing/images/Yhighlightblue.jpg)
+### Rotation
 
-Now that we know how to move one transform, let's give ourselves a few
-more transforms to play with.
+Look at the Pre-Affine Transform. You see how each axis is made of a circle, a long line, and an arrowhead?  Click and hold on the long line, as shown below, and drag your mouse.  
 
-### The Transform Selection Dropdown Menu
 
-Click on the red transform to select it.
+![](wing-Chaotica/Rotation.png)
 
-On the right-hand side of the Transform Editor, you will see the
-Selected Transform Menu. ![](wing/images/transformmenu.jpg) If you click
-on the arrow, ![](wing/images/dropdownarrow.jpg) a drop-down menu will
-appear. ![](wing/images/transformdropdown.jpg)
+This will rotate the Pre-Affine Transform.  
 
-Right now the dropdown menu only has one transform, but as you add more
-transforms to your fractal the Selected Transform Menu will help you
-manage them.
+### Scale
 
-### Adding More Transforms
+You see the box that shows up around the Pre-Affine Transform when you click on it?  Move the mouse to one of the corners of that box.  While clicking and holding your mouse, drag the corner around.  Your Pre-Affine Transform will get bigger or smaller.  
 
-Up until now, our fractal has been a bit boring. In order to have a wing
-by the end of this, we need to add a few more transforms. Specifically,
-two more transforms. Go to the top of the Transform Editor and click on
-the add transform ![](wing/images/addtransformbutton.jpg) button. This
-will add a new transform on top of the reference triangle. You'll notice
-that it's yellow, and also notice that the Selected Transform Menu now
-shows another transform, as seen below.
 
-![](wing/images/transformeditortwotransforms.jpg)
+![](wing-Chaotica/Scale.png)
 
-Click the new transform button ![](wing/images/addtransformbutton.jpg)
-again. This will add another new transform, this time in green. You'll
-notice that you can no longer see the yellow transform because it is
-hidden by the green triangle.
+### Skew	
 
-![](wing/images/transformeditor3triangles.jpg)
+Now look at the arrowhead at the top of the Y axis (The Y axis is the axis with a y by it.)  Click and hold and drag it around.  This skews the Pre-Affine Transform, as shown below.  
 
-This can sometimes cause problems you want to move the yellow transform
-with the mouse, because at first glance it seems like you have to move
-the green transform first. If you use just a mouse, you will have to
-move the green transform first. This does not really matter for this
-tutorial, but when working with later fractals there will be times when
-you want to move transforms that are hidden below other transforms. In
-that case, you will need to move the transforms using either the
-Transform tab or the Triangle tab.
+![](wing-Chaotica/Skew.png)
 
-Up until now, our fractal has been a bit boring- just a blank screen, or
-perhaps a blur. But now we get to the fun part, where we start seeing
-things!
 
-### Put It All Together
+### Reflection
 
-All right. You know how to move transforms. Now lets use them to make a
-pretty fractal.
 
-Move your transforms into this arrangement:
+There isn't actually a separate reflection widgit in Chaotica.  However, you can drag the arrowhead of an axis so that it is on the opposite side from where it started.  
 
-![](wing/images/finalwingarrangement.jpg)
+![](wing-Chaotica/Reflection.png)
 
-The closer you get to this exact arrangement, the more your fractal will
-look like a wing. You can see the image it is supposed to look like in
-the preview window in the upper right-hand corner of the fractal box.
+
+We now know how to move the transforms around.  Now that we know how to move one transform, let's give ourselves a few more transforms to play with.
+
+### Adding More Iterators
+
+In the top left corner of the World Editor is a button called New Iterator. It looks like this:  ![](wing-Chaotica/NewIteratorButton.png)
+
+Press it twice to add two new Iterators to your World Editor.  
+
+Note: Iterators are the workhorses that generate the fractal.  What is the difference between a Pre-Affiine Transform and an Iterator?  The Pre-Affine Transform that we're talking about is a part of the Iterator, in the same sense that a spark plug is part of a car.  
+
+Now that we have three iterators, let's start moving them around so that they form a wing shape.
+
+### Creating the Wing Shape
+
+In order to make a fractal that looks like a wing, you need to take your three Pre-Affine Transforms and move them so that they look like the image below: 
+
+ ![](wing-Chaotica/WingShape.png)
+
+ You will notice in the picture above that the white Reference Axis is four grid units tall and four grid units accross.  If your reference Axis is four units by four units, skip the rest of this paragraph.  If not, then right below the grid are two options called grid steps and grid spacing.  Set grid steps to 4 and grid spacing to .25.  ![](wing-Chaotica/GridSteps.png).  This will make your grid lines look like the ones above.  
+
+
+You will want to shrink the red Pre-Affine Transform and move it below the white Reference Transform, and rotate it clockwise a little.  Then you will want to take the purple Pre-Affine Transform, shrink it a little, and move it directly to the left about half a grid unit.  And then you will want to take the blue Pre Affine Transform, shrink it by about half, move it up a hair over one unit, and move it over a hair under one unit, and rotate it.  
+
+For this particular exercize, the closer you make your triangles look like the picture above, the more your fractal will look like a wing.  Precision counts.  In the next section, I will tell you how to type in the exact coordinates of each Pre-Affine Transform, but for the moment I want you to try moving the triangles around by hand.  Why?  Because this is one of my favorite parts of making a fractal: actually clicking on the triangles and seeing the fractal change on the main screen.  When I first started out, it gave me a godlike sense of power to be able to poke and prod the arrows and have something gorgeous show up, even if I had no idea what I was doing.   
+
+After doing this, take a look at your main window.  How close to a wing shape did you get?  Don't worry if it's not exact, because, in the next section I'll tell you how to type in the exact coordinates.  Here's how the fractal looks on my screen after moving the Pre-Affine Transforms by hand.  
+
+![](wing-Chaotica/ByHand.png)
+
+Now is a good time to save your fractal, and a good time for me to explain the two different types of saving in the File menu.  If you go to the file menu, you'll see two save options:  Save World and Save Image, like below. 
+
+![](wing-Chaotica/TwoSavingMethods.png)
+
+You want to choose the Save World option.  Why?  Because Save World saves the formula used to make the fractal: all of the math and options and such.  It's basically a blueprint that Chaotica uses to rebuild the fractal if you open it again.  By contrast, Save Image just saves a picture of the fractal.  If you save an image and DON'T save the World too, you won't be able to reopen and edit the fractal in Chaotica.  You will know the hearbreak of many fractal artists who have pictures of fractals they've made, but didn't save the World.  Since they didn't save the world too, they'll probably never be able to make that fractal again.      
+
+Saving the world gives you a file that ends in .chaos, like the following file: 
+
+![](wing-Chaotica/ChaosFile.png)
+
+Moving the Pre-Affine Transform with the Node Editor
+----------------------------------------------------
+
+Moving the transforms with the mouse is fun, but you can't get the transforms into exactly the same positions as shown in last section's picture.  To get exactly the same picture, you need to type the coordinates in by hand.  As a result, I'm going to teach you how to move the fractal with the Node Editor.  
+
+First, click on the red Pre-Affine Transform.  You will notice, in the Iterators window, that the iterator named iter 0 is highlighted in orange.  
+
+![](wing-Chaotica/Pre-AffineHighlighted.png)
+
+Right below that, you will notice the Node Editor, which looks like this:  
+
+![](wing-Chaotica/NodeEditor.png)
+
+This is where you can enter precise coordinates to place your Pre-Affine Transform.  
+
+Let's take a look at how these settings relate to the Pre-Affine Tranforms on the grid.
+Let's look at the X axis of the Pre-Affine Transform.  
+![](wing-Chaotica/Iter0XaxisVisual.png) ![](wing-Chaotica/Iter0Xaxis.png) 
+
+I'll start with X-axis length, because it's pretty easy.  Length is how long the long shaft of the axis is.  
+
+![](wing-Chaotica/Length.png)
+
+Now let's deal with angle.  Let's pretend that the little circle on the X axis is the center of a clock, and that the X axis is the minute-hand on a clock.  Now imagine that the X axis is pointing at 15 minutes past the hour. When the X axis is pointed at fifteen minutes past the hour, it is horizontal. When the x axis is horizontal, it is at zero degrees.  Now, imagine that one minute passes, and the minute-hand  moves clockwise around our clock. The X axis is now at a slight angle to the horizon.  If we measure that angle, it's about six degrees.  It is negative six degrees because negative stands for both 'below the horizon' and 'clockwise' and positive stands for 'above the horizon' and 'go counterclockwise.'
+
+![](wing-Chaotica/Angle.png)
+
+If this is confusing to you, don't worry too much about it.  Just grab the arrowhead of the x axis, drag it around a little bit, and watch the numbers change until you get an intuition for it.  If you're like me, and you simply have to know what's going on here, google 'polar coordinates,' because having coordinates defined by a length and an angle are called polar cordinates.
+
+The Y-axis coordinates work exactly the same as the X-axis coordinates. 
+
+Now let's take a look at the last coordinate: Offset.
+
+![](wing-Chaotica/Offset.png)
+
+ The offset tells where on the grid the Pre-Affine Transform is in relation to the white reference transform.  For example, this one is a tenth of a unit to the left and one unit down from the white Reference Transform.  (For those who want more info, google 'cartesian coordinates').
+
+ ![](wing-Chaotica/OffsetCoordinates.png)
+
+
+
 
 Moving the Transform With the Transform Tab
 -------------------------------------------
@@ -833,6 +889,15 @@ When it's done, you'll have your beautiful wing!
 
 Wing Tutorial Resources
 =======================
+
+### A Brief Digression 
+
+I'm going to chat for two paragraphs now about two different schools of thought there are in how to make fractals, so feel free to skip ahead.  The first school of thought are Explorers.  Explorers like to spend hours moving the transforms around, 'tweaking' the fractal here and there and trying things to see what happens.  Explorers usually have no idea how to make a particular fractal, just like an explorer often has no idea what will happen as they go into the great unknown.  Explorers don't know the theory or the math behind fractals, and don't care: they just want to poke around and see what happens.  These people are extremely valubale to the community because, over time, they get a sort of 'instinct' for fractals and can tell you how to make specific fractals, and what to do to get a particular effect. They also create entire libraries of fractals ans share them.  The second school of thought are the Engineers.  They want to take apart the fractal program and figure out HOW it does what it does, and why exactly putting a Pre-Affine transform in one location makes a tree while putting a Pre-Affine Transform in another location makes a wing.  They'll often study and research for weeks or even months before making a fractal, because they have a very particular fractal in mind that they want to make, and they need to know the math to make it.  Engineers like developing new types of fractals and making the programs the explorers use to make fractals. 
+
+The two schools of thought combine to form the Chaotica fractal community. In general, the Engineers end up making new varieties of fractals, and give them to the Exporers.  The Exporers take the basic design and tweak it to come up with ever-more-spectacular fractals.  Both produce some spectacular work.  Being an Explorer takes a lot of patience and a willingness to create even when you have absolutely no idea what you are doing.  Being an engineer means being patient, being willing to wade through several thick textbooks, find scarce fractal-making resources, piecing together obscure bits of math and pestering fractal experts on how stuff works until you arrive at a sudden insight.  This is why fractal art is very popular, because the two methods play to the strengths of both artists who hate math and mathemeticans who woudn't know art if it bit them.  One of the things I love best about the fractal art community is that two groups of people who barely talk to eachother in real life chat back and forth and use their respective skills to make brilliant art.  
+
+Now, back to making a wing.  Moving transforms by hand is called 'tweaking,' and it's the way 99% of fractal artists make new fractals.  You'll notice that moving the Pre-Affine transform changes the shape of the fractal in mysterious and beautiful ways.  Many artists spend hours tweaking the transforms just to see what happens, and if you're inspired to do so, I highly encourage you to spend some time twirlings stuff.  Make sure you save your result, though.  One thing about fractals is that, unless you write exactly waht you did or save your work, you will never see that fractal again.  
+
 
 The parameters for the wing in various stages of construction can be
 found [here](wing/wingtutorial.flame)
