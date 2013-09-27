@@ -1,6 +1,6 @@
 Title: Intro To Fractals: Making An Angel's Wing in Chaotica
 Author: Tara Roys
-Date: Wed Sept 12 2013 10:16:51 GMT-0600 (CST)
+Date: Wed Sept 27 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
 
 Making Angel Wings: An Introduction to Apophysis
@@ -9,7 +9,7 @@ Making Angel Wings: An Introduction to Apophysis
 Introduction
 ============
 
-![](wing-Chaotica/wingtutorialcolored3.jpg)
+![](wing-Chaotica/RainbowWingFinal.png)
 
 This tutorial assumes you have zero knowledge of fractals or of
 Chaotica.
@@ -21,7 +21,7 @@ This chapter will teach you how to make the fractal wing shown above.  By the en
 it, you will know how to use the most important parts of the Chaotica user interface, 
 and you will have a lovely picture to show off to your friends.  
 
-This tutorial will tell you how to do make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making.  If you want to know the principles of specific fractals, see ![](http://www.acm.uiuc.edu/~troys2/ApophysisUserManual/).  This tutorial is adapted from tutorial 1 of that book.  You can use the same principles explained in that book to use chaotica.  
+This tutorial will tell you how to do make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making. This tutorial tells you how to make a specific fractal and use the interface. It does not explain the science of fractals.  
 
 
 The Main Screen
@@ -40,12 +40,12 @@ it.  Double-click on one that you like, and close the parameter browser.
 
 ![](wing-Chaotica/chaoticamain.png)
 
-You will now see the main screen, as shown above.  There are lots of options on the main screen.
+You will now see the main screen, as shown above.  There are lots of options on the main screen. 
 At the moment, we only care about one option: AA Level.  
 
 ![](wing-Chaotica/SSFactor_1.png)
 
-On the left-hand side of the screen, you will see an option called SS Factor in the Resolutions and Channels section. (It is highlighted in orange in the image above.) Set it to 1. This makes the program draw the fractal faster. 
+On the left-hand side of the screen, you will see an option called AA Level in the Resolutions and Channels section. (It is highlighted in orange in the image above.) Set it to 1. This makes the program draw the fractal faster. 
 
 ![](wing-Chaotica/mainmenu.png)
 
@@ -53,7 +53,7 @@ Turn your attention to the main menu, shown above.
 
 ![](wing-Chaotica/openWorldEditor.png)
 
-In the main menu, click on Window and then World editor to open the world editor. 
+In the main menu, click on Window and then World Editor to open the World Editor. 
 
 
 
@@ -959,9 +959,14 @@ Here is the source code for this final wing.
 	</flam3_IFS>
 
 
-### A Brief Digression 
+More Resources
+--------------
 
-This has nothing to do with the tutorial above. I'm going to chat for two paragraphs now about two different schools of thought there are in how to make fractals.  The first school of thought are Explorers.  Explorers like to spend hours moving the transforms around, 'tweaking' the fractal here and there and trying things to see what happens.  Explorers usually have no idea how to make a particular fractal, just like an explorer often has no idea what will happen as they go into the great unknown.  Explorers don't know the theory or the math behind fractals, and don't care: they just want to poke around and see what happens.  These people are extremely valubale to the community because, over time, they get a sort of 'instinct' for fractals and can tell you how to make specific fractals, and what to do to get a particular effect. They also create entire libraries of fractals and share them.  If the thought of math terrifies you, if you think of yourself as 'an artist and not an engineer,' then don't worry- you have all the skills you need to be an Explorer.  Explorers make up the vast majority of fractal artists, and have developed many of the more spectacular styles of fractals.  
+If you want to know the principles behind making fractals and don't want to wait a year for me to write a bunch of new tutorials, see [my book on making fractals With apophysis](http://www.acm.uiuc.edu/~troys2/ApophysisUserManual/).  That book is written for a different fractal program called Apophysis, but the underlying principles explained in that book are the same for Chaoitca.  In fact, this tutorial is adapted from tutorial 1 of that book.  
+
+### The Fractal Community
+
+I'm going to chat for two paragraphs now about two different schools of thought there are in how to make fractals.  The first school of thought are Explorers.  Explorers like to spend hours moving the transforms around, 'tweaking' the fractal here and there and trying things to see what happens.  Explorers usually have no idea how to make a particular fractal, just like an explorer often has no idea what will happen as they go into the great unknown.  Explorers don't know the theory or the math behind fractals, and don't care: they just want to poke around and see what happens.  These people are extremely valubale to the community because, over time, they get a sort of 'instinct' for fractals and can tell you how to make specific fractals, and what to do to get a particular effect. They also create entire libraries of fractals and share them.  If the thought of math terrifies you, if you think of yourself as 'an artist and not an engineer,' then don't worry- you have all the skills you need to be an Explorer.  Explorers make up the vast majority of fractal artists, and have developed many of the more spectacular styles of fractals.  
 
 The second school of thought are the Engineers.  They want to take apart the fractal program and figure out HOW it does what it does, and why exactly putting a Pre-Affine transform in one location makes a tree while putting a Pre-Affine Transform in another location makes a wing.  They'll often study and research for weeks or even months before making a fractal, because they have a very particular fractal in mind that they want to make, and they need to know the math to make it.  Engineers like developing new types of fractals and making the programs the explorers use to make fractals. Engineers are extremenly valuable because they often build the software that Explorers use to make incredible fractals or come up with new types of transforms besides just Pre-Affine Transforms.   Without the engineers, Exporers would have no way to explore.  
 
@@ -969,6 +974,3 @@ The two schools of thought combine to form the Chaotica fractal community. In ge
 
 If you want to be a part of this, join the Chaotica forms or The Aposhack on Deviantart. I hang out in both places, as well as dozens of other artists and engineers.  If you have questions, that is the place to ask them.  
 
-
-The parameters for the wing in various stages of construction can be
-found [here](wing/wingtutorial.flame)
