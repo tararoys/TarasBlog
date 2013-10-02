@@ -21,7 +21,7 @@ This chapter will teach you how to make the fractal wing shown above.  By the en
 it, you will know how to use the most important parts of the Chaotica user interface, 
 and you will have a lovely picture to show off to your friends.  
 
-This tutorial will tell you how to do make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making. This tutorial tells you how to make a specific fractal and use the interface. It does not explain the science of fractals.  
+This tutorial will tell you how to make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making. This tutorial tells you how to make a specific fractal and use the interface. It does not explain the science of fractals.  
 
 
 The Main Screen
@@ -29,21 +29,21 @@ The Main Screen
 
 This tutorial is a general introduction to Chaotica. It introduces all
 of the important aspects of the program by teaching how to make an
-angels wing. So, without further ado, let me present "How to Make An
+angel's wing. So, without further ado, let me present "How to Make An
 Angel's Wing" by yours truly, [Tara
 Roys.](http://tararoys.deviantart.com)
 
 ![](wing-Chaotica/parameterbrowser.png)
 First, open up Chaotica. You will see nine pretty fractals shown in a window 
 called the Parameter Browser, like the ones above.  The ones you see will not be exactly like the ones shown here.  Don't worry about 
-it.  Double-click on one that you like, and close the parameter browser.    
+it.  Click on one that you like, and close the parameter browser.    
 
 ![](wing-Chaotica/chaoticamain.png)
 
 You will now see the main screen, as shown above.  There are lots of options on the main screen. 
 At the moment, we only care about one option: AA Level.  
 
-![](wing-Chaotica/SSFactor_1.png)
+![](wing-Chaotica/AALevel.png)
 
 On the left-hand side of the screen, you will see an option called AA Level in the Resolutions and Channels section. (It is highlighted in orange in the image above.) Set it to 1. This makes the program draw the fractal faster. 
 
