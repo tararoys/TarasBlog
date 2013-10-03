@@ -3,9 +3,6 @@ Author: Tara Roys
 Date: Wed Sept 27 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
 
-Making Angel Wings: An Introduction to Apophysis
-===============================================
-
 Introduction
 ============
 
