@@ -1,6 +1,6 @@
 Title: Running into Brick Walls
 Author: Tara Roys
-Date: Tue Mar 15 2013 10:16:51 GMT-0600 (CST)
+Date: Thu Oct 3 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
 
 
@@ -52,11 +52,11 @@ Sometimes the data is changed by the code it flows through, and you want to make
 
 There is one third and final way I intend to leave muddy footprints:  This blog.  Most novices don't know how to read a git history, which violates the principle of not marking your trail with symbols that other people don't understand.  Most people can read blogs, however.  So I intend to explain each of my footprints with a blog entry.  This is where I try and make up analogies to explain what I've done, chit-chat about what confused me and teach what I've learned. 
 
-I wrote the first part of this blog several months ago.  The real question is "are these three techniques together enough to leave a clearly marked trail?"  So far, the answer is no.  Writing a blog about how to do something take twenty times longer than actually doing it.  Case in point: the Making Angel's Wings tutorial took over two weeks and about forty hours of effort to put together.  I'm still not very good at making git commits that are short and readable.  Finally, tests are not very useful to the beginner, because it's another layer of complexity and an entirely unreadable language on top of what the beginner is already learning.  
+I wrote the first part of this blog eight months ago.  The real question is "are these three techniques together enough to leave a clearly marked trail?"  So far, the answer is no.  Writing a blog about how to do something take twenty times longer than actually doing it.  Case in point: the Making Angel's Wings tutorial took over two weeks and about forty hours of effort to put together.  I'm still not very good at making git commits that are short and readable.  Finally, tests are not very useful to the beginner, because it's another layer of complexity and an entirely unreadable language on top of the complex and unreadable language the beginner is already learning.  
 
-The biggest issue is that the muddy footprints I'm leaving are not muddy footprints.  They're not something I do without effort as a side-effect of learning.  In fact, when I do do git properly, or test properly, or blog properly, it ends up taking approximately ten times as long to complete the task I'm gitting or testing or blogging.  
+The biggest issue is that the muddy footprints I'm leaving are not muddy footprints.  In terms of effort on my part, they're more like building roads.  They're not something I do without effort as a side-effect of learning.  In fact, when I do do git properly, or test properly, or blog properly, it ends up taking approximately ten times as long to complete the task I'm gitting or testing or blogging.  Unfortunately, the roads I'm building are more like 'bridges to nowhwere', because I lack the tools to build them quickly.  They lack critical features.  Sometimes they stop suddenly and pick up again 40 yards away accross a yawning chasm. Mostly, though, they don't exist, because I can't afford to spend every waking building a road with a garden trowel.  
 
-Does this mean it is a bad idea?  No.  It used to take me 20 or 30 times as long to do a blog or write a test. I keep discovering amazing tools that help me shave orders of magnitude off the time it takes me to do something.  The goal, of course, is to pare down the overhead of recording how I figured something out enough that it actually takes me less time to record the event than it does to do it.  
+Does this mean it is a bad idea to keep trying?  No.  It used to take me 20 or 30 times as long to do a blog, write a test, or set up a new project on Github. I keep discovering amazing tools that help me shave orders of magnitude off the time it takes me to do something.  The goal, of course, is to pare down the overhead of recording how I figured something out enough that it actually takes me less time to record the event than it does to do it.  In short, I've upgraded my garden trowel to an actual shovel, and I can clearly see some of the steps needed to turn my shovel into a backhoe.  That backhoe is called DevBootCamp.  
 
 Will I succeed?  
 
