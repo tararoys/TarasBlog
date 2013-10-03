@@ -20,7 +20,7 @@ She looks down back at me, confused.  "Isn't it obvious?"
 
 The problem here is that she thought she was being perfectly clear:  and to another climber, who knows what 5.8 and chimney and dyno mean, she would have been.  However, to a novice, like me, her words might as well be martian for how well I can understand them. 
 
-#The Curse of Knowing Too Much
+##The Curse of Knowing Too Much
  
 Learning a new technology is like running up against a cliff, and many times, reading tutorials and blogs is like talking to the person at the top of the cliff.  They alreay know how to get up it, and to them it seems really obvious.  I've seen this in books and blog posts and endless commentary:  experts assume the people reading have a level of background information they simply don't have.  To a novice, it often looks like an expert teleported from the bottom of the cliff to the top of the cliff and forgot to explain all of the steps in between. 
 
