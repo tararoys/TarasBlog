@@ -4,7 +4,6 @@ Date: Thu Oct 3 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
 
 
-#How It Feels To Be A Novice
 
 I am following a trail to the foot of a cliff.  The trail is well-marked, although it is a little bit difficult.  I see a person at the foot of the cliff and I want to talk to them, so I hurry. It still takes me a few minutes, but when I get there, the person is gone.  I look up, and I see that she's now at the top of the cliff.  
 
