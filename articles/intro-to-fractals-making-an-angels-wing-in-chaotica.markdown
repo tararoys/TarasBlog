@@ -73,7 +73,7 @@ Delete all but one set of angles and start over.  You can do it by hand. Here's 
 
 ![](wing-Chaotica/delete_iterator.png)
 
-In the iterators window, click on an iterator, such as "Iterator 2" shown in the picture above. Then press the delete button.  One of the angles will disappear.
+In the iterators window, click on an iterator, such as "Iterator 2" shown in the picture above. Then press the delete button.  One of the angles will disappear.  Do that until only one angle remains.  Chaotica will not allow you to delete the last angle, which is fine. 
 
 
 
