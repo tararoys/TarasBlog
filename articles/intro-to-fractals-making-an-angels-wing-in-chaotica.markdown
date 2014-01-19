@@ -177,8 +177,6 @@ You will see a square slowly take shape in the main window.
 
 This gave you a basic 'blank' fractal.  With this start, we can start building a wing!
 
-
-
 ### Moving a Pre-Affine Transform With The Mouse
 
 Go to the world editor where you'll find the following:
@@ -187,7 +185,7 @@ Go to the world editor where you'll find the following:
 
 Click on the red thing that looks like a pair of arrows coming out from a point.  That thing is called a Pre-Affine Transform. 
 
- Note: Some like to shorten it and call it a "Transform" because "Pre-Affine Transform" sounds long and scary.  However, for the rest of the tutorial, its called by its full name: Pre-Affine Transform. Why? Because there are six different things in Chaotica labeled "Transform," and you won't get confused about which one is which. Don't worry about the scary-sounding name for now.  
+ Note: Some like to shorten it and call it a "Transform" because "Pre-Affine Transform" sounds long and scary.  However, for the rest of the tutorial, its called by its full name: Pre-Affine Transform. Why? Because there are six different things in Chaotica labeled "Transform," and if you say "Pre-Affine," you won't get confused about which one is which. Don't worry about the scary-sounding name for now.  
 
 Click on it.  You should see two things.  First, the Pre-Affine Transform is highlighted on the grid, like so: 
 
