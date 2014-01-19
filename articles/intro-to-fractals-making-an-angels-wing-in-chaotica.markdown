@@ -200,8 +200,6 @@ Let's get this thing moving!
 
 If you've ever worked with Photoshop or a similar image editor, you know that you can move an image in several different ways. In the picture below  the green shape is the original shape, and the yellow shape is moved in some way.  Each particular type of movement has its very own fancy technical term, but really, they're just names for the very ordinary sorts of movements you'd want to do to a picture. 
 
-  
-
 ![](wing-Chaotica/AffineTransform.png)
 
 Taken together, these five movements are called Affine Tranformations, which is where the 'Affine' part of 'Pre-Affine Transform' comes from.  Let's learn how to do these five movements to our pre-affine transform.  
