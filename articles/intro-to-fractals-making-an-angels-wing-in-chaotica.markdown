@@ -175,7 +175,7 @@ You will see a square slowly take shape in the main window.
 
 ![](wing-Chaotica/NewBlankFlame.png)
 
-Now we can start building a wing!
+This gave you a basic 'blank' fractal.  With this start, we can start building a wing!
 
 
 
