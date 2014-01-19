@@ -81,7 +81,7 @@ Note: Many people try to select an angle on the black screen and press delete.  
 
 ![](wing-Chaotica/select_angle_iterator_window.png)
 
-If you notice the iterator window, you will notice that something called the Pre-Affine is highlighted orange, NOT the iterator itself. To be very brief, a fractal is made of iterators. An iterator has many parts. A Pre-affine (which is short for "Pre-Affine Transform") is merely a part of an iterator, not the whole iterator. when you are selecting the angles.  Trying to delete just the pre-affine is like trying to throw away just a page of a book and thinking that the page is the whole book.  That's why you can't delete by hand just by selecting an angle. 
+If you notice the iterator window, you will notice that something called the Pre-Affine is highlighted orange, NOT the iterator itself. To be very brief, a fractal is made of parts called iterators. An iterator has many parts. A Pre-affine (which is short for "Pre-Affine Transform") is merely a part of an iterator, not the whole iterator. The angles are a visual representation of the Pre-Affine.  Trying to delete just the pre-affine is like trying to throw away just a page of a book and thinking that the page is the whole book.  That's why you can't delete by hand just by selecting an angle on the black grid.
 
 
 
