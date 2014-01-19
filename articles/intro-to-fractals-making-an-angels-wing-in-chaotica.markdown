@@ -24,11 +24,11 @@ This tutorial is a general introduction to Chaotica. It introduces all of the im
 
 ![](wing-Chaotica/parameterbrowser.png)
 
-First, open Chaotica. In a window called the "parameter browser," you will see nine colorful fractals like the ones above.  They will not be exactly like the ones shown here. Click on one that you like, and close the parameter browser.    
+First, open Chaotica. In a window called the "parameter browser," you will see nine colorful fractals like the ones above.  They will not be exactly like the ones shown here. Click on one that you like, and close the parameter browser.
 
 ![](wing-Chaotica/chaoticamain.png)
 
-You will now see the main screen, as shown above.  There are lots of options on the main screen. At the moment, we only care about one option: AA Level.  
+You will now see the main screen, as shown above.  There are lots of options on the main screen. At the moment, we only care about one option: AA Level.
 
 ![](wing-Chaotica/AALevel.png)
 
@@ -69,7 +69,15 @@ Making a New Flame
 
 You'll notice that the picture above has a lot of colored angles pointing in different directions. When you click on one of the arrows and drag it around, you'll notice that you change how the fractal looks. 
 
-Delete all but one set of angles and start over.  You can do it by hand, but to get on with actually making the wing and skipping a lot of the boring setup, do the following.  Copy all of the code in the black box below.  
+Delete all but one set of angles and start over.  You can do it by hand. Here's how to do it by hand. 
+
+![](wing-Chaotica/delete_iterator.png)
+
+In the iterators window, click on an iterator, such as "Iterator 2" shown in the picture above. Then press the delete button.  One of the angles will disappear.
+
+
+
+ but to get on with actually making the wing and skipping a lot of the boring setup, do the following.  Copy all of the code in the black box below.  
 
     <flam3_IFS name="New Blank Flame">
         <camera>
