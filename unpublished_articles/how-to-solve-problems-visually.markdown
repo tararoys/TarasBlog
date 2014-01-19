@@ -1,4 +1,4 @@
-Title: How to Communicate Visually When You Can't Draw by Nick Matcha
+Title: hOW TO cOMMUNICATE vISUALLY wHEN yOU cAN'T dRAW BY nICK mATCHA
 Author: Tara Roys 
 Date: Fri Sept 13 2013 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
@@ -107,3 +107,5 @@ Wing Tutorial Resources
 
 The parameters for the wing in various stages of construction can be
 found [here](wing/wingtutorial.flame)
+
+

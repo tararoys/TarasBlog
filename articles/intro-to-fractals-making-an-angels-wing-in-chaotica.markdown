@@ -14,13 +14,13 @@ You can use Chaotica with any operating system.  The latest version of Chaotica 
 
 This chapter will teach you how to make the fractal wing shown above. By the end, you will know how to use the most important parts of the Chaotica user interface, and you will have a lovely picture to show to your friends.  
 
-This tutorial will tell you how to make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making. This tutorial tells you how to make a specific fractal and use the interface. It does not explain the science of fractals.  
+This tutorial will tell you how to make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making.
 
 
 The Main Screen
 ===============
 
-This tutorial is a general introduction to Chaotica. It introduces all of the important aspects of the program by teaching how to make an angel's wing. 
+This tutorial is a general introduction to Chaotica. It introduces all of the important aspects of the program's user interface.
 
 ![](wing-Chaotica/parameterbrowser.png)
 
