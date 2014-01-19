@@ -86,7 +86,7 @@ If you notice the iterator window, you will notice that something called the Pre
 
 
 
- but to get on with actually making the wing and skipping a lot of the boring setup, do the following.  Copy all of the code in the black box below.  
+So that is how to delete things by hand. To get on with actually making the wing and skipping a lot of the boring setup, do the following.  Copy all of the code in the black box below.
 
     <flam3_IFS name="New Blank Flame">
         <camera>
