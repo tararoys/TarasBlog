@@ -191,14 +191,14 @@ Click on it.  You should see two things.  First, the Pre-Affine Transform is hig
 
 ![](wing-Chaotica/Pre-AffineTransformHilighted.png)
 
-Second, you will see the name pre-affine higlighted in orange in the iterators panel in the upper-right-hand corner of the world editor, like so:  
+Second, you will see the name pre affine higlighted in orange in the iterators panel in the upper-right-hand corner of the world editor, like so:
 
 ![](wing-Chaotica/Pre-AffineHilighted.png)
 
 
 Let's get this thing moving!
 
-If you've ever worked with Photoshop or a similar image editor, you know that you can move an image in several different ways. In the picture below  the green shape is the original shape, and the yellow shape is moved in some way.  Each particular type of movement has its very own fancy technical term that sounds all scary and strange, but really, they're just names for the very ordinary sorts of movements you'd want to do to a picture.  
+If you've ever worked with Photoshop or a similar image editor, you know that you can move an image in several different ways. In the picture below  the green shape is the original shape, and the yellow shape is moved in some way.  Each particular type of movement has its very own fancy technical term, but really, they're just names for the very ordinary sorts of movements you'd want to do to a picture. 
 
   
 
