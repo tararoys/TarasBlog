@@ -12,7 +12,7 @@ This tutorial assumes you have zero knowledge of fractals or of Chaotica.
 
 You can use Chaotica with any operating system.  The latest version of Chaotica can be downloaded from [the Chaotica Website.](http://chaoticafractals.com/)
 
-This chapter will teach you how to make the fractal wing shown above. By the end, you will know how to use the most important parts of the Chaotica user interface, and you will have a lovely picture to show to your friends.  
+This chapter will teach you how to make the fractal wing shown above. By the end, you will know how to use the most important parts of the Chaotica user interface, and you will have a lovely picture to show to your friends.
 
 This tutorial will tell you how to make a wing.  It will NOT explain the principles behind fractals or Chaotica.  Think of it like a cook-book recipe: a recipe tells you how to make a loaf of bread, but it does not tell you about the science behind bread-making.
 
@@ -36,7 +36,7 @@ On the left-hand side of the screen, you will see an option called AA Level in t
 
 ![](wing-Chaotica/mainmenu.png)
 
-Turn your attention to the main menu, shown above.    
+Turn your attention to the main menu, shown above.
 
 ![](wing-Chaotica/openWorldEditor.png)
 
@@ -62,7 +62,7 @@ When you open the world editor, the first thing you'll see is a large black scre
 
 Right-click and hold on the black grid.  While still holding the right mouse button down, move the mouse around. You'll drag the grid around. This lets you reposition your editor window so that you can concentrate on whatever part you want.
 
-To zoom in and out of the editor window, hold down ALT and the right mouse button, then drag the mouse around. Dragging the mouse up will zoom in, whereas dragging the mouse down will zoom out.  
+To zoom in and out of the editor window, hold down ALT and the right mouse button, then drag the mouse around. Dragging the mouse up will zoom in, whereas dragging the mouse down will zoom out.
 
 Making a New Flame
 ------------------
@@ -202,9 +202,9 @@ If you've ever worked with Photoshop or a similar image editor, you know that yo
 
 ![](wing-Chaotica/AffineTransform.png)
 
-Taken together, these five movements are called Affine Tranformations, which is where the 'Affine' part of 'Pre-Affine Transform' comes from.  Let's learn how to do these five movements to our pre-affine transform.  
+Taken together, these five movements are called Affine Tranformations, which is where the 'Affine' part of 'Pre-Affine Transform' comes from.  Let's learn how to do these five movements to our pre-affine transform.
 
-Disclaimer:  the following section talks a little bit about math; however, the math described here is a lot like a stick figure.  You can communicate a lot of information with a stick figure, but nobody is going to mistake it for a realistic drawing. Like a stick figure, the math described in this section is wildly oversimplified, and the technical terms used in it are a bit inaccurate.  So, math people, if I'm making your teeth grind together, there's a paragraph at the end of this section full of links to much more accurate and much less readable information just for you.  
+Disclaimer:  the following section talks a little bit about math; however, the math described here is a lot like a stick figure.  You can communicate a lot of information with a stick figure, but nobody is going to mistake it for a realistic drawing. Like a stick figure, the math described in this section is wildly oversimplified, and the technical terms used in it are a bit inaccurate.  So, math people, if I'm making your teeth grind together, there's a paragraph at the end of this section full of links to much more accurate and much less readable information just for you.
 
 ### Translation
 
@@ -214,9 +214,9 @@ Look at where the two axes meet.  There is a small circle that looks like this:
 
 ![](wing-Chaotica/origin.png)
 
-This circle is called the origin.  Click and drag it.  
+This circle is called the origin.  Click and drag it.
 
-Clicking and dragging on the origin allows you to translate the Pre-Affine Transform.  
+Clicking and dragging on the origin allows you to translate the Pre-Affine Transform.
 
 Now is a good time to point out the white axes.  The white axes are the Reference Axes that tell you how far away from the center of the picture you have moved your Pre-Affine Transform.
 
@@ -250,10 +250,12 @@ Now look at the arrowhead at the top of the Y axis. (The Y axis is the axis with
 ### Reflection
 
 
-There isn't actually a separate reflection widget in Chaotica.  However, you can drag the arrowhead of an axis so that it is on the opposite side from where it started.  
+There isn't actually a separate reflection widget in Chaotica.  However, you can drag the arrowhead of an axis so that it is on the opposite side from where it started.
 
 ![](wing-Chaotica/Reflection.png)
+
 Now that you know how to move one Pre-Affine Transform, play with a few more Pre-Affine Transforms.
+
 
 If you want to know more about Pre-Affine Transforms, check out [the Wikipedia Page.](http://en.wikipedia.org/wiki/Iterated_function_system ) If you want to read an extremely dense math paper about how chaotica-type fractals are made, read [Scott Drave's paper on Iterated Function Systems.](http://flam3.com/flame.pdf) I don't recommend them for beginners, because at this point you probably don't care.  Let's move along.   
 
@@ -286,6 +288,7 @@ After doing this, take a look at your main window.  How close to a wing shape di
 Now is a good time to save your fractal, and a good time for me to explain the two different types of saving in the File menu.  If you go to the file menu, you'll see two save options:  Save World and Save Image, like below. 
 
 ![](wing-Chaotica/TwoSavingMethods.png)
+
 Choose the Save World option.  Why?  Because Save World saves the settings used to make the fractal.  It's basically a blueprint that Chaotica uses to rebuild the fractal if you open it again.  By contrast, Save Image just saves a picture of the fractal.  If you save an image and DON'T save the World too, you won't be able to reopen and edit the fractal in Chaotica.  You will know the heartbreak of many fractal artists who have pictures of fractals they've made, but didn't save the World.  Since they didn't save the World too, they'll probably never be able to make that fractal again.      
 
 Saving the world gives you a file that ends in .chaos, like the following file: 
