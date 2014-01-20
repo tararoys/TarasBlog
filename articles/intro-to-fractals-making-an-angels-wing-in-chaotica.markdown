@@ -289,7 +289,8 @@ Now is a good time to save your fractal, and a good time for me to explain the t
 
 ![](wing-Chaotica/TwoSavingMethods.png)
 
-Choose the Save World option.  Why?  Because Save World saves the settings used to make the fractal.  It's basically a blueprint that Chaotica uses to rebuild the fractal if you open it again.  By contrast, Save Image just saves a picture of the fractal.  If you save an image and DON'T save the World too, you won't be able to reopen and edit the fractal in Chaotica.  You will know the heartbreak of many fractal artists who have pictures of fractals they've made, but didn't save the World.  Since they didn't save the World too, they'll probably never be able to make that fractal again.      
+
+Choose the Save World option.  Why?  Because Save World saves the settings used to make the fractal.  It's basically a blueprint that Chaotica uses to rebuild the fractal if you open it again.  By contrast, Save Image just saves a picture of the fractal.  If you save an image and DON'T save the World too, you won't be able to reopen and edit the fractal in Chaotica.  You will know the heartbreak of many fractal artists who have pictures of fractals they've made, but didn't save the World.  Since they didn't save the World too, they'll probably never be able to make that fractal again.
 
 Saving the world gives you a file that ends in .chaos, like the following file: 
 
@@ -890,11 +891,11 @@ So let's do exactly that.
 
 In the main window, on the left-hand side, there is a block called Render Settings.  It looks like this: 
 
-    ![](wing-Chaotica/RenderSettings.png)
+![](wing-Chaotica/RenderSettings.png)
 
 The Aspect Ratio is controlled by the Width and Height settings. The width and the height is in pixels.  I set mine to 800 by 600, but you can set yours to different values if you like.  
 
-    ![](wing-Chaotica/AspectRatio.png)
+![](wing-Chaotica/AspectRatio.png)
 
 If you notice that every time you change the width, your height changes
 too, this is because the Lock Aspect Ratio box
