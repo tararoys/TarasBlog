@@ -1,3 +1,8 @@
+Title: How do I learn web programming when all I have is an Ipad? 
+Author: Tara Roys
+Date: Wed Mar 07 2014 10:16:51 GMT-0600 (CST)
+Node: v0.1.102
+
 How do I learn web programming when all I have is an Ipad? 
 
 Once upon a time, I dreamed of being a web developer.  All I had was an ipad.  This blog you are reading?  It was developed entirely on my ipad.
