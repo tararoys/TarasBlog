@@ -1,4 +1,4 @@
-Title: Gone Fishin' in the Roys Family Pond
+Title: Gone Fishin in the Roys Family Pond
 Author: Tara Roys
 Date: Fri Apr 18 2014 10:16:51 GMT-0600 (CST)
 Node: v0.1.102
@@ -9,7 +9,7 @@ For thirty years, [Jim Frey Fish Hatchery](http://www.jimfreyfishhatchery.com/in
 
 How do they do it? Today I got to see how you go about catching a lot of fish at once.
 
-#To Catch A Fish
+##To Catch A Fish
 
 To catch a bunch of fish in a pond, you (and half a dozen of your friends and family) use a seine net.  A seine net is sort of like a moveable wall that you can use to herd fish into a small enough area that you can catch them with a dip net. (A dip net is like a big version of those little green aquarium nets you see in fish stores.)
 
