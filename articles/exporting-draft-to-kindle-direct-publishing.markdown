@@ -18,7 +18,7 @@ This blog post is the most important important chapter, because it covers the pa
 If you want to see the rest of the book, click on any of the links below.  And if you run into any trouble at all with the chapters, there is a link on the page that says 'Help tlroys edit this book.' Click on it, and write me the question in the part that is giving you trouble.  I'll get an email, and I'll email you back with the answer. 
 
 - [Preface](https://draftin.com/documents/325168?token=or6yyAlSgr5DkYFkZ-_vUU8VmTLf6ar1Xw4XEu4yIW4h9sxeDDlvMqZ-iplhpFQeXGzi-g4mVLBESRq7TJebkJM) 
-- [Chapter 1: Writing With Draft: Using Markdown](https://draftin.com/documents/325336?token=JuD3VmtU1R0IxfndTI-Rxtxw9fbuMXuYCqGFkvfGNY4sEhymQGCBr1EIMTjc8snjYOfq2q5VNHMe4A52lUxLCL4]
+- [Chapter 1: Writing With Draft: Using Markdown](https://draftin.com/documents/325336?token=JuD3VmtU1R0IxfndTI-Rxtxw9fbuMXuYCqGFkvfGNY4sEhymQGCBr1EIMTjc8snjYOfq2q5VNHMe4A52lUxLCL4)
 - [Chapter 2: Adding Images With Dropbox](https://draftin.com/documents/326068?token=LMv9Hax6O9ncaeVKxLsSayxAuQqzBR_ElTF3Am73iG0hvGUA7QJwqzxKkcUMzHX7mdH0Pf_mFYZP5VTF4lrx9YQ)
 - [Chapter 3: Exporting Your Draft To Kindle](https://draftin.com/documents/326621?token=EzS0Sr8Zd89RcsERDFvknglbVXk9TdIsgQWC1QJH3z5C_w9uJqeYqV3SNTb9E0_wNOuX41MHRLbL82_LsgiTFIA)
 - [Chapter 4: Creating A Cover](https://draftin.com/documents/326690?token=b1RKewyxhJHGuVb5rHxyhjXoAIpLjkB8O822frTobdPlTGKpWG6J9CmTGdQUPnlMAVSuOnkfRRJLmVsSmnUa528)
