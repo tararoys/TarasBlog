@@ -11,7 +11,7 @@ I happen to be a computer programmer. So far, it has taken me a quarter million 
 
  I was writing my second book, when I discovered, almost by accident, the easier way to do it.
 
-I use a program called Draft to write.  When Draft saves your file, it saves it as a type called Mardown.  The hardest part of publishing a book was converting the Markdown file to a .mobi file.  I figuret out how to do it, and since I don't wnat you to suffer as I suffered, I wrote it down.  In fact, I wrote a whole book about how to write book with draft and publish them on Amazon kindle.  
+I use a program called Draft to write.  When Draft saves your file, it saves it as a type called Markdown.  The hardest part of publishing a book was converting the Markdown file to a .mobi file.  I figured out how to do it, and since I don't want you to suffer as I suffered, I wrote it down.  In fact, I wrote a whole book about how to write book with Draft and publish them on Amazon kindle.  
 
 This blog post is the most important important chapter, because it covers the part that people have the most difficulty with: converting your book to a form that Kindle will accept.   
 
@@ -30,11 +30,11 @@ And now, the tutorial:  Exporting Your Book The Easy Way.
 
 Make yourself a  little test book with Draft. If you don't want to write your test book, feel free to [copy mine](https://draftin.com/documents/324416?token=-HlK25CGSD7rC8P3LsnP4kIEyJs14mAU5dzwZ1xoqAOZHqtLnujGc0NkPgfzx8roIPoEWAlR85mbPsnhlPKrVdc). 
 
-Here's what we're going to do. Amazon, and spedifically, Amazon's service Kindle Direcg Publishing, is really touchy about the format of books.  If you don't have your book in exactly the right format, it won't let you upload your book.
+Here's what we're going to do. Amazon, and spedifically, Amazon's service Kindle Direct Publishing, is really touchy about the format of books.  If you don't have your book in exactly the right format, it won't let you upload your book.
 
 There is a way to export a book from Draft to a format that Kindle will accept.  You export it as a Word Document.  When you go to publish your book, there will be a place for you to upload the book file.  The Kindle uploader will take that Word Document and convert it into a fairly nicely-formatted Kindle book. 
 
-I'm now going to rant for the next paragraph: trying to figure out how to export a book from Draft to a format the Kindle importer would accept was a lot like trying to fit two hoses together where one hose is slightly bigger than the other.  Theorectially, Draft can export Kindle .mobi files, a file called a .epub, raw html files, and docx files.  Theoretically, the kindle importer can take in .mobi files, .epub files, raw html files, and .docx word documents. Unfortunately, what Draft exports for .mobi, .epub, and docx files is slightly different than what Kindle can import, so the only easy way to get your document from Draft to Kindle is to export it as a .docx word document. 
+I'm now going to rant for the next paragraph: trying to figure out how to export a book from Draft to a format the Kindle importer would accept was a lot like trying to fit two hoses together where one hose is slightly bigger than the other.  Theorectially, Draft can export Kindle .mobi files, a file called a .epub, raw html files, and docx files.  Theoretically, the Kindle importer can take in .mobi files, .epub files, raw html files, and .docx word documents. Unfortunately, what Draft exports for .mobi, .epub, and docx files is slightly different than what Kindle can import, so the only easy way to get your document from Draft to Kindle is to export it as a .docx word document. 
 
 There is a hard way to do it that also gives you a lot more control over how to export your book.  In fact, I was going to write a series of 5 blog posts about how to install and set up the 5 different programs you need in order to create your ebook.  Fortunately, I discovered a much, much easier way. 
 
