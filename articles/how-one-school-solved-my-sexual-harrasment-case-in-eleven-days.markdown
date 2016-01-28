@@ -7,7 +7,7 @@ When I attended Dev Bootcamp Chicago in Spring of 2014, I got sexually harassed.
 
 This is a story of how one school got it right.  
 
-#
+##How It All Began
 
 I e-mailed the complaint Saturday, Feb 15, 2014, at 10:29 AM.  I was shaking, crying, and in a state of shock.  I felt abused and violated.  School was no longer a safe place of techy, nerdy fun, where I could deep-dive into code and lose myself for hours.  It was a dangerous battleground where I had to watch my back from the men, who composed 90% of the school.  The future stared back at me like a loaded gun, and my brain was already cringing away from the questions I knew were going to be asked.  What were you drinking?  Why were you drinking?  What were you wearing?  It was not as though he actually touched you, so why do you feel assaulted?  How can you consider it harassment? 
 
