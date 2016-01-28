@@ -10,6 +10,8 @@ When I attended Dev Bootcamp Chicago in Spring of 2014, I got sexually harassed.
 
 This is a story of how one school got it right.  
 
+##The Incident
+
 I e-mailed the complaint Saturday, Feb 15, 2014, at 10:29 AM.  I was shaking, crying, and in a state of shock.  I felt abused and violated.  School was no longer a safe place of techy, nerdy fun, where I could deep-dive into code and lose myself for hours.  It was a dangerous battleground where I had to watch my back from the men, who composed 90% of the school.  The future stared back at me like a loaded gun, and my brain was already cringing away from the questions I knew were going to be asked.  What were you drinking?  Why were you drinking?  What were you wearing?  It was not as though he actually touched you, so why do you feel assaulted?  How can you consider it harassment? 
 
 On Wed, Feb 26, 2014, at 9:52 PM, eleven days later, after 10 hours of back-and-forth, it was over.  That was when I sent a relieved email to my mother saying that my complaint had been resolved to my satisfaction.  My mind was off the assault and back on trying to figure out what the heck a ruby class was.  The memory of the incident seemed no more emotionally charged than the memory of the time I burned my dinner: somewhat unpleasant, but not a persistent trauma.  I could throw myself back into learning.  And boy, did I need to...I was struggling with Dev Bootcamp. I was barely making the grade.  I was terrified that I would not pass the next exam.  But the one thing I was not concerned about was whether Dev Bootcamp had my back if someone attacked me again.  
