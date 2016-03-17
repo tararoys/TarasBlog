@@ -1,6 +1,6 @@
 Title: How One School Solved My Sexual Harrasment Case in Eleven Days
 Author: Tara Roys
-Date: Wed Mar 27 2016 11:15:51 GMT-0600 (CST)
+Date: Sat Feb 27 2016 11:15:51 GMT-0600 (CST)
 Node: v0.1.102
 
 When I attended Dev Bootcamp Chicago in Spring of 2014, I got sexually harassed.  There are dozens, perhaps hundreds of stories in the news about schools mishandling such cases.  This is not one of those stories.  
