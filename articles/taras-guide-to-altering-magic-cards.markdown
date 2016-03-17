@@ -9,7 +9,7 @@ This is a guide to altering magic cards.
 
 ##Getting Started
 
-![](alters/images/AlteringRadkosGuildgateGuideReducedSize 2.jpeg)
+![]("alters/images/AlteringRadkosGuildgateGuideReducedSize 2.jpeg")
 ![](alters/images/AlteringRadkosGuildgateGuideReducedSize 3.jpeg)
 ![](alters/images/AlteringRadkosGuildgateGuideReducedSize 4.jpeg)
 ![](alters/images/AlteringRadkosGuildgateGuideReducedSize 5.jpeg)
