@@ -5,7 +5,7 @@ Node: v0.1.102
 
 This is a guide to altering magic cards. 
 
-![](alters/images/AlteringRadkosGuildgateGuideReducedSize.jpeg)
+![](alters/images/AlteringRadkosGuildgateGuideReducedSize.jpg)
 
 ##Getting Started
 
